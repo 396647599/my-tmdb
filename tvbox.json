@@ -1,49 +1,22 @@
 {
   "sites": [
     {
-      "key": "点播源",
-      "name": "电影天堂(1080p)",
+      "key": "tkzy",
+      "name": "天空资源",
+      "type": 0,
+      "api": "https://api.yzzy-api.com/inc/ldg_api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "dytt",
+      "name": "电影天堂",
       "type": 0,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "大陆综艺",
-        "国产动漫",
-        "短剧"
-      ]
-    },
-    {
-      "key": "点播源2",
-      "name": "优质资源库(1080p)",
-      "type": 1,
-      "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "大陆综艺",
-        "国产动漫",
-        "动作片"
-      ]
-    },
-    {
-      "key": "非凡",
-      "name": "非凡资源(720p)",
-      "type": 0,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "大陆综艺",
-        "国产动漫",
-        "短剧"
-      ]
+      "filterable": 0
     }
   ],
   "lives": [
@@ -62,58 +35,13 @@
   "parses": [
     {
       "name": "电影天堂",
-      "type": 1,
+      "type": 0,
       "url": "https://vip.dyttzyplay.com/?url="
     },
     {
-      "name": "优质天空2",
-      "type": 1,
-      "url": "https://vip.yzzy-player.vip/?url="
-    },
-    {
-      "name": "优质天空1",
-      "type": 1,
+      "name": "天空资源站",
+      "type": 0,
       "url": "https://vip.zykbf.com/?url="
-    },
-    {
-      "name": "hls免费解析",
-      "type": 1,
-      "url": "https://jx.hls.one/?url="
-    },
-    {
-      "name": "playm3u8",
-      "type": 1,
-      "url": "https://www.playm3u8.cn/jiexi.php?url="
-    },
-    {
-      "name": "77云解析",
-      "type": 1,
-      "url": "https://jx.77flv.cc/?url="
-    },
-    {
-      "name": "红狐",
-      "type": 1,
-      "url": "https://rdfplayer.mrgaocloud.com/player/?url="
-    },
-    {
-      "name": "极速",
-      "type": 1,
-      "url": "https://jx.2s0.cn/player/?url="
-    },
-    {
-      "name": "1907",
-      "type": 1,
-      "url": "https://im1907.top/?jx="
-    },
-    {
-      "name": "七哥",
-      "type": 1,
-      "url": "https://jx.nnxv.cn/tv.php?url="
-    },
-    {
-      "name": "非凡",
-      "type": 1,
-      "url": "https://svip.ffzyplay.com/?url="
     }
   ],
   "flags": [
@@ -254,4 +182,99 @@
         },
         {
           "category": 4,
-          "nam
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
+}
